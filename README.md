@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import flipud3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flipud3d@deno/mod.js';
+import flipud3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flipud3d@v0.2.3-deno/mod.js';
 ```
 
 #### flipud3d( x )
@@ -87,7 +87,7 @@ var out = flipud3d( [ [ [ 1, 2 ], [ 3, 4 ] ] ] );
 ```javascript
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filled3dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled3d-by@deno/mod.js';
-import flipud3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flipud3d@deno/mod.js';
+import flipud3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flipud3d@v0.2.3-deno/mod.js';
 
 var x = filled3dBy( [ 3, 3, 3 ], discreteUniform( -50, 50 ) );
 console.log( x );
